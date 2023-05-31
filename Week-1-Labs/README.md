@@ -1,1 +1,1 @@
-# Hello - World
+### Create a React application that contains a list of your favourite movies. The application should contain the movies name, the director of the movie, the genre of the movie and the year the movies was released. For the list of movies use a Movies component that contains a list of Movie components. 
