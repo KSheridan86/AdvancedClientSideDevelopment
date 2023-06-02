@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Movies from './components/Movies'
 
@@ -6,53 +6,46 @@ import Movies from './components/Movies'
 function App() {
   var movies = [
     {
-      "title": "Primer",
-      "year": "2004",
-      "director": " Shane Carruth",
-      "description": "Intellectual engineers Aaron (Shane Carruth) and Abe (David Sullivan) build and sell error-checking technology with the help of their friends Robert (Casey Gooden) and Phillip (Anand Upadhyaya). But when Aaron and Abe accidentally invent what they think is a time machine, Abe builds a version capable of transporting a human and puts the device to the test. As the two friends obsess over their creation, they discover the dark consequences of their actions.",
-      "genre": "Sci-fi/Drama"
-    },
-    {
-      "title": "The Northman",
-      "genre": "Adventure/Action",
-      "year": "2022",
-      "director": "Robert Eggers",
-      "description": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who raids Slavic villages. He soon meets a seeress who reminds him of his vow -- save his mother, kill his uncle, avenge his father."
-    },
-    {
-      "title": "The Lighthouse",
-      "genre": "Horror/Drama",
-      "year": "2019",
-      "director": "Robert Eggers",
-      "description": "In a remote island, Ephraim Winslow arrives as a lighthouse keeper and assists his elderly supervisor, Thomas Wake. As days pass, Winslow is haunted by strange and mysterious visions."
-    },
-    {
-      "title": "The Lighthouse",
-      "genre": "Horror/Drama",
-      "year": "2019",
-      "director": "Robert Eggers",
-      "description": "In a remote island, Ephraim Winslow arrives as a lighthouse keeper and assists his elderly supervisor, Thomas Wake. As days pass, Winslow is haunted by strange and mysterious visions."
-    },
-    {
-      "title": "Memento",
-      "genre": "Mystery/Thriller",
-      "year": "2000",
+      "title": "Interstellar",
+      "genre": "Adventure/Sci-fi/Drama",
+      "year": "2014",
       "director": "Christopher Nolan",
-      "description": "Leonard Shelby, an insurance investigator, suffers from anterograde amnesia and uses notes and tattoos to hunt for the man he thinks killed his wife, which is the last thing he remembers."
+      "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
     },
     {
-      "title": "Her",
-      "genre": "Romance/Sci-fi",
-      "year": "2013",
-      "director": "Christopher Nolan",
-      "description": "Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it."
+      "title": "The Big Lebowski",
+      "genre": "Comedy/Crime",
+      "year": "1998",
+      "director": "The Coen Brothers",
+      "description": "Ultimate L.A. slacker Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire's missing wife."
     },
     {
-      "title": "Lost Highway",
-      "genre": "Noir/Neo-noir",
-      "year": "1997",
-      "director": "David Lynch",
-      "description": "From this inventory of imagery, Lynch fashions two separate but intersecting stories, one about a jazz musician (Bill Pullman), tortured by the notion that his wife is having an affair, who suddenly finds himself accused of her murder. The other is a young mechanic (Balthazar Getty) drawn into a web of deceit by a temptress who is cheating on her gangster boyfriend. These two tales are linked by the fact that the women in both are played by the same actress (Patricia Arquette)."
+      "title": "Kingpin",
+      "genre": "Comedy/Sport",
+      "year": "1996",
+      "director": "The Farrelly Brothers",
+      "description": "A star bowler whose career was prematurely 'cut off' hopes to ride a new prodigy to success and riches."
+    },
+    {
+      "title": "The Cable Guy",
+      "genre": "Comedy/Thriller",
+      "year": "1996",
+      "director": "Ben Stiller",
+      "description": "A designer makes a grievious mistake when he rejects the friendship of a borderline cable guy."
+    },
+    {
+      "title": "Man on the Moon",
+      "genre": "Biography/Comedy/Drama",
+      "year": "1999",
+      "director": "Milos Forman",
+      "description": "The life and career of legendary comedian Andy Kaufman."
+    },
+    {
+      "title": "Jurassic Park",
+      "genre": "Adventure/Sci-fi",
+      "year": "1993",
+      "director": "Steven Spielberg",
+      "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
     }
   ]
 

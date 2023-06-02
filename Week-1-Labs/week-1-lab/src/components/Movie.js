@@ -1,7 +1,7 @@
 
 function Movie(props) {
   return (
-    <div>
+    <div className="center">
       <h4>{props.title}</h4>
       <p>
           Genre: {props.genre}
@@ -12,10 +12,11 @@ function Movie(props) {
       <p>
           Director: {props.director}
       </p>
-      <p>
-          Description: {props.description}
+      <p className="description">
+          Description:<br></br> {props.description}
       </p>
       <br/>
+      <hr></hr>
     </div>
   );
 }

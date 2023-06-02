@@ -4,6 +4,7 @@ function Movies(props) {
   return (
     <div>
       <h3>Favorite Movies List</h3>
+      <hr></hr>
       {props.movies.map(function(i, index) {
         return (
           <div key={index}>
