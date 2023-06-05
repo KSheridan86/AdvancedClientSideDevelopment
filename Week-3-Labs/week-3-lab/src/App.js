@@ -1,12 +1,12 @@
 import './App.css';
-import LightSwitch from './components/LightSwitch';
+import TodoList from './components/TodoList';
 
 function App() {
-  return (
+  return(
     <div>
-      <LightSwitch />
+      <TodoList />
     </div>
-    );
+  )
 }
 
 export default App;
