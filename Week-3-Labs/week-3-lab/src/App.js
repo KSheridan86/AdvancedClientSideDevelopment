@@ -1,36 +1,12 @@
 import './App.css';
-import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import LightSwitch from './components/LightSwitch';
 
-import SplashScreen from './SplashScreen';
-import ShoppingList from './ShoppingList';
-
-const App = () => {
+function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/shopping-list">Shopping List</Link>
-            </li>
-          </ul>
-        </nav>
-        <hr></hr>
-
-        <Routes>
-          <Route path="/" element={<SplashScreen />} />
-          <Route path="/shopping-list" element={<ShoppingList />} />
-        </Routes>
-
-      </div>
-    </Router>
-  );
-};
-
-
+    <div>
+      <LightSwitch />
+    </div>
+    );
+}
 
 export default App;
