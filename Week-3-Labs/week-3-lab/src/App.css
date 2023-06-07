@@ -1,5 +1,18 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  margin: 3rem auto;
+  border: 1px solid #000000;
+  width: 30%;
+  padding: 3rem;
+  background-color: aquamarine;
+}
+
+.BtnSpace {
+  margin: 1rem;
 }
 
 .App-logo {
