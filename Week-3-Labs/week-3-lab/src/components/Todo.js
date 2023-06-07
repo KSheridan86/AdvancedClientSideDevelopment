@@ -1,10 +1,18 @@
-import {useState} from 'react';
+// import {useState} from 'react';
 
 function Todo(props) {
-    console.log(props.todo.text)
-    return(
-        <div>{props.todo.text}</div>
-    )
+    if (props.todo.isEdit) {
+        return (
+            <span>
+                <input type="text" value={props.updateText} onChange={props.handleUpdateText} />
+            </span>
+        )
+    } else {
+        return(
+            <span>{props.todo.text}</span>
+        )
+    }
+
 }
 
 export default Todo;
