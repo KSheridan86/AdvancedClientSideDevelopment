@@ -52,7 +52,7 @@ const Weather = () => {
                 <form onSubmit={handleSubmit}>
                 <input
                     type="text"
-                    placeholder="Enter city name"
+                    placeholder="Enter city name....."
                     value={city}
                     onChange={handleChange}
                 />

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 5rem 10rem;
 }
 
 .App-logo {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+Button {
+  background-color: #282c34;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+body {
+  background-color: whitesmoke;
 }
