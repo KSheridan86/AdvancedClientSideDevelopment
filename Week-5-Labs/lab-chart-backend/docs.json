@@ -1,0 +1,31 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"title": "Hello World",
+		"version": "1.0.0"
+	},
+	"paths": {
+		"/earnings": {
+			"get": {
+				"description": "No inputs required",
+				"responses": {
+					"200": {
+						"description": "Returns the countries total earnings in imaginary shares lifetime"
+					}
+				}
+			}
+		},
+		"/sales": {
+			"get": {
+				"description": "No inputs required",
+				"responses": {
+					"200": {
+						"description": "Returns a list of imaginary corps sales of the past 10 years"
+					}
+				}
+			}
+		}
+	},
+	"components": {},
+	"tags": []
+}

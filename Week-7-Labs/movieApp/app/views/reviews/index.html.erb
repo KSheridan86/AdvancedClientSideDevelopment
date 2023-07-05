@@ -1,0 +1,19 @@
+<h1>Reviews for <%= @movie.title %></h1>
+<table>
+  <tr>
+    <th>Review details</th>
+  </tr>
+  <% for review in @reviews %>
+    <tr>
+      <td><%= review.details %></td>
+      <td><%= link_to 'Show', movie_review_path(@movie, review) %></td>
+      <td><%= link_to 'Edit', edit_movie_review_path(@movie, review) %></td>
+
+      <td><%= button_to "Destroy this movie", movie_review_path(@movie, review), method: :delete %></td>
+    </tr>
+  <% end %>
+</table>
+<br />
+<%= link_to 'New review', new_movie_review_path(@movie) %>
+<%= link_to 'Back to Movie', @movie %>
+

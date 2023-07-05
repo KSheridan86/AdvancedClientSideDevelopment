@@ -1,0 +1,54 @@
+body {
+  background-color: antiquewhite;
+}
+.movie-box {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+}
+
+.movie {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #feeeee;
+}
+
+.movie h2 {
+  margin-top: 0;
+}
+
+.movie .details {
+  margin-bottom: 10px;
+}
+
+.movie .details span {
+  font-weight: bold;
+}
+
+.movie .edit-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.movie .edit-buttons button {
+  margin: 10px;
+  border-radius: 2%;
+}
+
+.movie .edit-inputs input {
+  margin: 10px;
+  border-radius: 2%;
+}
+
+.add-movie input,
+.add-movie button {
+  margin: 10px;
+  border-radius: 2%;
+}
